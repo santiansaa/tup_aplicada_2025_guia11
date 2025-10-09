@@ -4,9 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeometriaModels.Models
+namespace GeometriaModels.Models;
+
+public class RectanguloModel:FiguraModel
 {
-    internal class RectanguloModel
+    public double Largo { get; set; }
+    public double Ancho { get; set; }
+
+    public RectanguloModel()
     {
+    }
+
+    public RectanguloModel (double largo, double ancho  )
+    {
+        Largo = largo;
+        Ancho = ancho;
     }
 }

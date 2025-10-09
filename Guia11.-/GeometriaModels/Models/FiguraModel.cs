@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeometriaModels.Models
+namespace GeometriaModels.Models;
+
+public  class FiguraModel
 {
-    internal class FiguraModel
-    {
-        public int? Id { get; set; }
-        public double? Area { get; set; }
-    }
+    public int? Id { get; set; }
+    public double? Area { get; set; }
 }
